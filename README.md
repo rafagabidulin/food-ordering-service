@@ -32,7 +32,7 @@ Step 3 — run the project
 $ npm start
 ```
 
-Step 4 - start server
+Step 4 — start server
 
 ```
 $ npm run start-server
