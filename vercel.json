@@ -3,16 +3,13 @@
   "builds": [
     {
       "src": "simple_api/server.js",
-      "use": "@vercel/node",
-      "config": {
-        "includeFiles": ["simple_api/api/mock.js"]
-      }
+      "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "server.js"
+      "dest": "simple_api/server.js"
     }
   ]
 }
