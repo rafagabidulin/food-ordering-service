@@ -1,0 +1,32 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 100%;
+  background-color: rgba(20, 20, 20, 0.95);
+}
+
+.logo {
+  width: 115px;
+  height: 18px;
+  background-image: url('./img/logo.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.links {
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.link {
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.link:hover {
+  color: rgb(212, 212, 81);
+}

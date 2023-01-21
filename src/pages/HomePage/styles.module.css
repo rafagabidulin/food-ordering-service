@@ -1,0 +1,25 @@
+.root {
+  position: relative;
+  text-align: center;
+}
+
+.img {
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text p:nth-child(1) {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.text p:nth-child(2) {
+  color: white;
+  font-size: 20px;
+}
