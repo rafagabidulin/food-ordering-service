@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "build": "simple_api/server.js"
+      "dest": "simple_api/server.js"
     }
   ]
 }
